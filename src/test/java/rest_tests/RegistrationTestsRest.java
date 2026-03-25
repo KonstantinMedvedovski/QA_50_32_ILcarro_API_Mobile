@@ -17,7 +17,7 @@ public class RegistrationTestsRest  extends AuthentificationController {
     public void registrationPositiveTest(){
         int i = new Random().nextInt(1000);
         RegistrationBodyDto user = RegistrationBodyDto.builder()
-                .username("cat"+ i + "@gmail.com")
+                .username("cat12345@gmail.com")
                 .password("Password123!")
                 .firstName("Cat123")
                 .lastName("Cats")
